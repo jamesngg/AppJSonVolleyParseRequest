@@ -1,0 +1,24 @@
+
+    public Herois() {
+    }
+
+    public Herois(String nome, String nomereal) {
+        this.nome = nome;
+        this.nomereal = nomereal;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNomeReal() {
+        return nomereal;
+    }
+
+    public void setNomeReal(String nomereal) {
+        this.nomereal = nomereal;
+    }
